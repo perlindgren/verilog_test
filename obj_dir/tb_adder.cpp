@@ -2,8 +2,8 @@
 #include <iostream>
 #include <verilated.h>
 #include <verilated_vcd_c.h>
-#include "Valu.h"
-#include "Valu___024unit.h"
+#include "Vadder.h"
+#include "Vadder___024root.h"
 
 #define MAX_SIM_TIME 20
 vluint64_t sim_time = 0;
