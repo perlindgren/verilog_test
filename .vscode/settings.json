@@ -2,6 +2,7 @@
     "systemverilog.formatCommand": "verible-verilog-format",
     "editor.formatOnSave": true,
     "cSpell.ignoreWords": [
+        "gtkwave",
         "verilator",
         "verilog"
     ]
