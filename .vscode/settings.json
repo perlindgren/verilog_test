@@ -1,4 +1,8 @@
 {
     "systemverilog.formatCommand": "verible-verilog-format",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "cSpell.ignoreWords": [
+        "verilator",
+        "verilog"
+    ]
 }

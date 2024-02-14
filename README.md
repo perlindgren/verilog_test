@@ -1,6 +1,6 @@
 # Testing out some verilog
 
-## Comiplining using Verilator
+## Compiling using Verilator
 
 ```shell
 verilator --cc adder.sv
