@@ -33,11 +33,9 @@ module tb_adder;
       b = r[7:4];
       c_in = r[8];
       #10 $display("a=0x%0h b=0x%0h c_in=0x%0h c_out=0x%0h sum=0x%0h", a, b, c_in, c_out, sum);
-      // assert ( a + b + c_in  == {c_out, sum}) $display ("OK. A equals B");
-      // else $error("It's gone wrong");
+      assert (a + a + {3'b000, c_in} == {c_out, sum}) $display("OK");
+      else $error("It's gone wrong");
     end
-
-    #10 $finish;
 
   end
 
