@@ -1,0 +1,4 @@
+{
+    "systemverilog.formatCommand": "verible-verilog-format",
+    "editor.formatOnSave": true
+}
