@@ -31,8 +31,8 @@ module tb_adder;
     for (i = 0; i < 5; i = i + 1) begin
       r = $random;
       #10 a = r[3:0];
-      b = r[3:0];
-      c_in = r[0];
+      b = r[7:4];
+      c_in = r[8];
     end
 
   end
